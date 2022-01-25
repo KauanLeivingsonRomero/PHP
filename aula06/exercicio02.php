@@ -11,7 +11,7 @@
   <div>
     <?php
       $anoatual = $_GET["anoatual"];
-      echo "Ano passado: $anoatual-- Ano atual"
+      echo "Ano passado: ". --$anoatual .", Ano atual: ". ++$anoatual. " Proximo ano: ". ++$anoatual;
     ?>
   </div>
 </body>
